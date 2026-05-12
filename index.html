@@ -341,6 +341,33 @@
     }
 
     /* PROJECTS */
+    .project-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .project-num-inline {
+      font-family: var(--display);
+      font-size: 0.7rem;
+      font-weight: 800;
+      color: var(--accent);
+      opacity: 0.5;
+      letter-spacing: 0.1em;
+    }
+
+    .project-learnings {
+      font-size: 0.75rem;
+      color: var(--accent3);
+      line-height: 1.7;
+      margin-bottom: 1.25rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid var(--border);
+    }
+
     .projects-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -665,116 +692,116 @@
     <div class="projects-grid">
 
       <div class="project-card reveal">
-        <div class="project-top p1">
-          <div class="project-num">01</div>
-          <div class="project-tech-badges">
-            <span class="tech-badge">Next.js</span>
-            <span class="tech-badge">MongoDB</span>
-            <span class="tech-badge">Tailwind</span>
-            <span class="tech-badge">Machine learning</span>
-          </div>
-        </div>
         <div class="project-body">
-          <h3 class="project-title">CarbonLog</h3>
+          <div class="project-meta">
+            <span class="project-num-inline">01</span>
+            <div class="project-tech-badges">
+              <span class="tech-badge">Next.js</span>
+              <span class="tech-badge">MongoDB</span>
+              <span class="tech-badge">Recharts</span>
+              <span class="tech-badge">Claude API</span>
+            </div>
+          </div>
+          <h3 class="project-title">Terranote</h3>
           <p class="project-desc">A sustainability carbon tracking platform for UK users. Multi-step habit logging, dashboard analytics, and AI-powered reduction recommendations using DEFRA 2024 emissions data.</p>
+          <p class="project-learnings">Learned how to design MongoDB schemas from scratch, wire up a REST API in Next.js, and integrate a third-party AI API into a real product.</p>
           <div class="project-links">
-            <!-- <a href="#" class="project-link">Live demo &rarr;</a>
-            <a href="https://github.com/tedbeswick" class="project-link">GitHub &rarr;</a> -->
+            <a href="https://github.com/tedbeswick" class="project-link">GitHub &rarr;</a>
           </div>
         </div>
       </div>
 
       <div class="project-card reveal">
-        <div class="project-top p2">
-          <div class="project-num">02</div>
-          <div class="project-tech-badges">
-            <span class="tech-badge">Blazor</span>
-            <span class="tech-badge">Azure</span>
-            <span class="tech-badge">C#</span>
-          </div>
-        </div>
         <div class="project-body">
-          <h3 class="project-title">NEXT careers website</h3>
-          <p class="project-desc">In collaboration with NEXT, a careers website which helps potential applicants apply to their most compatible department. Segemented personality questionnaire, probability based results page, and links to roles on the NEXT careers site</p>
+          <div class="project-meta">
+            <span class="project-num-inline">02</span>
+            <div class="project-tech-badges">
+              <span class="tech-badge">Blazor</span>
+              <span class="tech-badge">C#</span>
+              <span class="tech-badge">Agile</span>
+              <span class="tech-badge">Trello</span>
+            </div>
+          </div>
+          <h3 class="project-title">NEXT Clothing — Internal Tool</h3>
+          <p class="project-desc">Delivered a Blazor web application for NEXT, the clothing retailer, managing a team of four developers across a 12-week agile delivery with two sprints.</p>
+          <p class="project-learnings">First experience managing a team and a real client. Learned how to run standups, handle scope creep, and keep a backlog realistic.</p>
           <div class="project-links">
-            <!-- <a href="#" class="project-link">Live demo &rarr;</a>
-            <a href="#" class="project-link">GitHub &rarr;</a> -->
+            <a href="https://github.com/tedbeswick" class="project-link">GitHub &rarr;</a>
           </div>
         </div>
       </div>
 
       <div class="project-card reveal">
-        <div class="project-top p3">
-          <div class="project-num">03</div>
-          <div class="project-tech-badges">
-            <span class="tech-badge">Laravel</span>
-            <span class="tech-badge">PHP artisan</span>
-            <span class="tech-badge">MySQL</span>
-          </div>
-        </div>
         <div class="project-body">
-          <h3 class="project-title">ATLAS bookstore website</h3>
-          <p class="project-desc">Dual sided web application to manage stock for a bookstore. Customer-facing storefront with a staff admin panel, catalogue with reservable elements for stocked books, and an admin dashboard with analytics and account management.</p>
+          <div class="project-meta">
+            <span class="project-num-inline">03</span>
+            <div class="project-tech-badges">
+              <span class="tech-badge">Laravel</span>
+              <span class="tech-badge">PHP</span>
+              <span class="tech-badge">MySQL</span>
+              <span class="tech-badge">Google Maps API</span>
+              <span class="tech-badge">Google Weather API</span>
+            </div>
+          </div>
+          <h3 class="project-title">Laravel Web App</h3>
+          <p class="project-desc">Full-stack web app with separate customer-facing and admin portals, integrating Google Maps and Weather APIs to provide live location and weather data.</p>
+          <p class="project-learnings">Learned MVC architecture through Laravel, relational database design with MySQL, and how to work with third-party REST APIs.</p>
           <div class="project-links">
-            <!-- <a href="#" class="project-link">Live demo &rarr;</a>
-            <a href="#" class="project-link">GitHub &rarr;</a> -->
+            <a href="https://github.com/tedbeswick" class="project-link">GitHub &rarr;</a>
           </div>
         </div>
       </div>
 
       <div class="project-card reveal">
-        <div class="project-top p3">
-          <div class="project-num">04</div>
-          <div class="project-tech-badges">
-            <span class="tech-badge">Flutter</span>
-            <span class="tech-badge">Dart</span>
-            <span class="tech-badge">SQLite</span>
-            <span class="tech-badge">Weather &and; Map APIs</span>
-          </div>
-        </div>
         <div class="project-body">
-          <h3 class="project-title">Fitness social media android app</h3>
-          <p class="project-desc">A social fitness app for Android built in Flutter. Users log workouts, share activity posts with photos and stats, follow friends, and compete on leaderboards.</p>
+          <div class="project-meta">
+            <span class="project-num-inline">04</span>
+            <div class="project-tech-badges">
+              <span class="tech-badge">Flutter</span>
+              <span class="tech-badge">Dart</span>
+              <span class="tech-badge">SQLite</span>
+              <span class="tech-badge">Android</span>
+            </div>
+          </div>
+          <h3 class="project-title">FitShare — Social Fitness App</h3>
+          <p class="project-desc">Android app built in Flutter where users log workouts, share activity posts with photos and stats, follow friends, and compete on leaderboards.</p>
+          <p class="project-learnings">First mobile project — learned Flutter's widget model, local data persistence with SQLite, and how to handle image uploads on device.</p>
           <div class="project-links">
-            <!-- <a href="#" class="project-link">Live demo &rarr;</a>
-            <a href="#" class="project-link">GitHub &rarr;</a> -->
+            <a href="https://github.com/tedbeswick" class="project-link">GitHub &rarr;</a>
           </div>
         </div>
       </div>
 
       <div class="project-card reveal">
-        <div class="project-top p3">
-          <div class="project-num">05</div>
-          <div class="project-tech-badges">
-            <span class="tech-badge">Python</span>
-            <span class="tech-badge">Jupyter Notebook</span>
-            <span class="tech-badge">Scikit-learn</span>
-            <span class="tech-badge">Real world datasets</span>
-          </div>
-        </div>
         <div class="project-body">
-          <h3 class="project-title">Machine learning</h3>
-          <p class="project-desc">Interactive data science notebook analysing a housing and fraud dataset, and an ASL alphabet image dataset. Implemented KNN and Decision Tree classifiers with hyperparameter tuning, and K-Means vs K-Means++ clustering evaluated with Elbow Method and Silhouette Score. Includes visualisations across exploration, feature analysis, and model evaluation.</p>
+          <div class="project-meta">
+            <span class="project-num-inline">05</span>
+            <div class="project-tech-badges">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Pandas</span>
+              <span class="tech-badge">Scikit-learn</span>
+              <span class="tech-badge">Jupyter Notebook</span>
+            </div>
+          </div>
+          <h3 class="project-title">Fraud Detection — ML Analysis</h3>
+          <p class="project-desc">Interactive notebook analysing a fraud dataset using KNN and Decision Tree classifiers with hyperparameter tuning, and K-Means vs K-Means++ clustering with Elbow Method and Silhouette Score evaluation.</p>
+          <p class="project-learnings">Learned the full supervised and unsupervised ML pipeline — data cleaning, feature analysis, model selection, and evaluation metrics like ROC curves and confusion matrices.</p>
           <div class="project-links">
-            <!-- <a href="#" class="project-link">Live demo &rarr;</a>
-            <a href="#" class="project-link">GitHub &rarr;</a> -->
+            <a href="https://github.com/tedbeswick" class="project-link">GitHub &rarr;</a>
           </div>
         </div>
       </div>
 
-      <!-- <div class="project-card more-card reveal">
-        <div class="project-top" style="background: linear-gradient(135deg, #0d0d1a 0%, #1a1a2e 100%); justify-content: center; align-items: center; flex-direction: column; gap: 0.75rem;">
-          <div style="font-family: var(--display); font-size: 2.5rem; font-weight: 800; color: var(--accent); opacity: 0.4;">+</div>
-          <div style="font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted);">And more</div>
-        </div>
-        <div class="project-body">
+      <div class="project-card reveal" style="display: flex; align-items: center; justify-content: center; min-height: 200px;">
+        <div class="project-body" style="text-align: center;">
+          <div style="font-family: var(--display); font-size: 3rem; font-weight: 800; color: var(--accent); opacity: 0.3; line-height: 1; margin-bottom: 1rem;">+</div>
           <h3 class="project-title">More on GitHub</h3>
-          <p class="project-desc">More projects, experiments, and coursework available on my GitHub — including university assignments, side projects, and early learning work.</p>
-          <div class="project-links">
+          <p class="project-desc">More projects, experiments, and coursework on my GitHub profile.</p>
+          <div class="project-links" style="justify-content: center; margin-top: 1rem;">
             <a href="https://github.com/tedbeswick" class="project-link">View GitHub &rarr;</a>
           </div>
         </div>
-      </div> -->
+      </div>
 
     </div>
   </section>
